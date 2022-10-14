@@ -3,7 +3,7 @@
 int _strlen(char *s);
 char *_strcpy(char *dest, char *src);
 /**
- * new_dog - ...
+ *new_dog - ...
  * @name: ...
  * @age: ...
  * @owner: ...
@@ -21,7 +21,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 		cutie_dog = malloc(sizeof(dog_t));
 		if (cutie_dog == NULL)
 			return (NULL);
-		utie_dog->name = malloc(sizeof(char) * name_l);
+		cutie_dog->name = malloc(sizeof(char) * name_l);
 		if (cutie_dog->name == NULL)
 		{
 			free(cutie_dog);
@@ -66,6 +66,7 @@ char *_strcpy(char *dest, char *src)
 	int i;
 
 	for (i = 0; src[i] != '\0'; i++)
+
 	{
 		dest[i] = src[i];
 	}
