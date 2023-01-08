@@ -1,17 +1,5 @@
 #include "hash_tables.h"
 
-/**
- * shash_table_create - creates a sorted hash table
- * @size: size of the hash table
- *
- * Return: pointer to the new table, or NULL on failure
-/*
- * File: 100-sorted_hash_table.c
- * Auth: Gedeon Obae Gekonge
- */
-
-#include "hash_tables.h"
-
 shash_table_t *shash_table_create(unsigned long int size);
 int shash_table_set(shash_table_t *ht, const char *key, const char *value);
 char *shash_table_get(const shash_table_t *ht, const char *key);
