@@ -175,7 +175,7 @@ void hash_table_print(const hash_table_t *ht)
  */
 void hash_table_print_rev(const hash_table_t *ht)
 {
-	shash_node_t *node;
+	hash_node_t *node;
 
 	if (ht == NULL)
 		return;
