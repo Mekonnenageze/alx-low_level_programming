@@ -1,1 +1,4 @@
-
+python = "userfriendly"
+1 = "vaoul"
+print(python)
+print(1)
